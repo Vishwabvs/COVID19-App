@@ -44,6 +44,6 @@ else:
     else:
         st.write("Pneumonia")
              
-             
+              
     st.text("Probability (0: COVID19, 1: Normal, 2: Pneumonia)")
     st.write(prediction)
