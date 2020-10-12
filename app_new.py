@@ -4,6 +4,10 @@ import tensorflow as tf
 from PIL import Image, ImageOps
 
 st.set_option('deprecation.showfileUploaderEncoding',False)
+st.set_option('deprecation.showfileUploaderEncoding', False)
+
+
+
 
 def import_and_predict(image_data, model):
     
